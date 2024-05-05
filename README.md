@@ -26,3 +26,27 @@ You have been provided with a dataset consisting of utility data similar to what
 5. **Communication:**
     - Prepare a concise report summarizing findings and insights. What did you observe in the data provided? The report should include your methodology, the steps you took to complete the analysis,
     - Clearly communicate any issues identified and provide recommendations for further action by the Cambio customer success team.
+  
+Evaluation Rubric
+
+Data integrity
+- Ability to identify and rectify inaccuracies, inconsistencies, and outliers in customers’ carbon data.
+- Proficiency in cleaning and transforming raw data into a usable format.
+Data validation techniques
+- Knowledge of data validation methods to ensure the accuracy and reliability of utility data. 
+- Ability to implement validation checks, handle missing values, and identify patterns in the data.
+Domain Knowledge
+- Understanding of utility data and relevant industry terminology. 
+- Ability to interpret data in context to ensure thorough analysis.
+Attention to Detail
+- Attention to detail in identifying and correcting errors. 
+- Thoroughness in reviewing data, and commitment to ensuring data quality.
+Communication of Findings
+- Ability to communicate complex data issues and insights clearly and concisely. 
+- Effective documentation and reporting skills to convey findings and recommendations to both technical and non-technical stakeholders.
+Technical Proficiency
+- Proficiency in relevant tools and programming languages (e.g., Python, SQL, Excel) used in data analysis and cleaning. 
+- Ability to efficiently manipulate and analyze utility data using appropriate techniques.
+Data Visualization and Analysis
+- Ability to visually represent data and draw meaningful insights from visualizations.
+- Proficiency in using tools like Tableau or other visualization tools is a plus.
