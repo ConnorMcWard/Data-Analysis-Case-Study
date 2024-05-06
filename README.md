@@ -1,11 +1,11 @@
 # Case Study Overview
 **Background**
 
-Cambio’s decarbonization platform utilizes artificial intelligence to retrofit buildings, helping our real estate customers achieve their net-zero goals. The foundation of Cambio’s platform is dynamic portfolio monitoring and benchmarking, which in turn relies upon consistent and accurate utility data from our customers.
+Company’s decarbonization platform utilizes artificial intelligence to retrofit buildings, helping our real estate customers achieve their net-zero goals. The foundation of Company’s platform is dynamic portfolio monitoring and benchmarking, which in turn relies upon consistent and accurate utility data from our customers.
 
 **Instructions**
 
-You have been provided with a dataset consisting of utility data similar to what we would receive from a Cambio customer, including information on natural gas and electricity consumption over the past year. Your task is to clean the dataset, implement checks to identify inaccuracies or data gaps, and help us make sense of the data.
+You have been provided with a dataset consisting of utility data similar to what we would receive from a Company customer, including information on natural gas and electricity consumption over the past year. Your task is to clean the dataset, implement checks to identify inaccuracies or data gaps, and help us make sense of the data.
 
 **Detailed overview of tasks:**
 
@@ -25,7 +25,7 @@ You have been provided with a dataset consisting of utility data similar to what
     - Draw meaningful conclusions from the visualized data and incorporate them into the final report.
 5. **Communication:**
     - Prepare a concise report summarizing findings and insights. What did you observe in the data provided? The report should include your methodology, the steps you took to complete the analysis,
-    - Clearly communicate any issues identified and provide recommendations for further action by the Cambio customer success team.
+    - Clearly communicate any issues identified and provide recommendations for further action by the Company customer success team.
   
 ## Evaluation Rubric
 
