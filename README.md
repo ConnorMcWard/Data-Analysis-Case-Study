@@ -1,58 +1,106 @@
-# Case Study Overview
-**Background**
+# Utility Data Case Study
 
-Company’s decarbonization platform utilizes artificial intelligence to retrofit buildings, helping our real estate customers achieve their net-zero goals. The foundation of Company’s platform is dynamic portfolio monitoring and benchmarking, which in turn relies upon consistent and accurate utility data from our customers.
+## Table of Contents
+- [Case Study Overview](#case-study-overview)
+- [Data Cleaning](#data-cleaning)
+- [Data Validation](#data-validation)
+- [Carbon Emissions Analytics](#carbon-emissions-analytics)
+- [Data Visualization and Analysis](#data-visualization-and-analysis)
+- [Conclusion](#conclusion)
+- [Evaluation Rubric](#evaluation-rubric)
 
-**Instructions**
+## Case Study Overview
+### Background
+The goal of this case study is to utilize artificial intelligence to retrofit buildings, helping real estate customers achieve their net-zero goals. This relies on consistent and accurate utility data from customers.
 
-You have been provided with a dataset consisting of utility data similar to what we would receive from a Company customer, including information on natural gas and electricity consumption over the past year. Your task is to clean the dataset, implement checks to identify inaccuracies or data gaps, and help us make sense of the data.
+### Instructions
+You have been provided with a dataset consisting of utility data, including natural gas and electricity consumption over the past year. Your tasks are to clean the dataset, implement checks to identify inaccuracies or data gaps, and make sense of the data.
 
-**Detailed overview of tasks:**
-
+### Detailed Overview of Tasks:
 1. **Data Cleaning:**
-    - Prepare the dataset for analysis, addressing any data irregularities and ensuring data readiness. Explain how you handled any inaccuracies, inconsistencies, or gaps in the dataset.
-    - Get the data into a usable structure and format (i.e. a clean database) for visualization and platform ingestion.
-    - Feel free to use the method you’re most comfortable with to clean the data set (Excel, Python, etc.).
+    - Prepare the dataset for analysis by addressing any data irregularities and ensuring data readiness.
+    - Explain how inaccuracies, inconsistencies, or gaps were handled.
+    - Get the data into a usable format for visualization and platform ingestion.
 2. **Data Validation:**
     - Evaluate the quality and reliability of the utility data.
-    - Identify any anomalies or outliers and make an initial attempt at normalization if possible.
-3. **Carbon Emissions Analytics**
-    - Convert the energy (electricity and gas) usage to carbon emissions (in metric tons).
-    - For information on how to calculate the conversion, please see EnergyStar’s reference guide: https://www.energystar.gov/buildings/tools-and-resources/portfolio-manager-technical-reference-greenhouse-gas-emissions
+    - Identify any anomalies or outliers and attempt normalization if possible.
+3. **Carbon Emissions Analytics:**
+    - Convert the energy usage to carbon emissions (in metric tons) using EnergyStar’s reference guide.
 4. **Data Visualization and Analysis:**
-    - Create visualizations to represent key trends, patterns, and insights in the utility data.
-    - Utilize appropriate visualization tools and techniques (e.g., charts, graphs) to enhance the understanding of the data.
-    - Draw meaningful conclusions from the visualized data and incorporate them into the final report.
+    - Create visualizations to represent key trends and insights.
+    - Use appropriate tools to enhance data understanding.
+    - Summarize findings and insights in a final report.
 5. **Communication:**
-    - Prepare a concise report summarizing findings and insights. What did you observe in the data provided? The report should include your methodology, the steps you took to complete the analysis,
-    - Clearly communicate any issues identified and provide recommendations for further action by the Company customer success team.
-  
+    - Summarize findings and insights, highlighting any issues and recommendations for further action.
+
+## Data Cleaning
+### Introduction
+This report summarizes the analysis conducted on energy consumption data from seven units across two properties. The focus was on identifying any patterns or trends that could inform energy efficiency strategies.
+
+### Methodology
+My analysis followed these steps:
+1. **Data Cleaning and Validation:** Energy consumption data was gathered for each unit, ensuring accuracy and consistency.
+2. **Data Normalization:** Normalized energy consumption values.
+3. **Energy Conversion:** Energy consumption was converted into CO2 emissions per metric ton.
+4. **Calculation of Average Emissions by Unit and Property:** Analysis was done to highlight companies and buildings which had higher than average CO2 emissions per square foot.
+5. **Data Visualizations/ Trend and Seasonality Analysis:** The data was examined for linear trends, indicative of long-term changes in energy usage. An Autocorrelation Function (ACF) was utilized to evaluate the seasonality in energy consumption, particularly for gas usage.
+
+### Observations
+1. **Consistency in Energy Usage:** The data analysis didn’t point to any significant linear or seasonal trends in energy consumption across the units. Specifically, the ACF analysis for gas usage didn’t show any strong correlations indicative of seasonality, suggesting that other external factors might be mitigating potential seasonal influences.
+2. **Comparison of Emission Efficiency:** An interesting finding was that the Empire State Building, even post its 2010 retrofit, registered higher average emissions per square foot in comparison to the more modern World Trade Center. This discrepancy highlights the potential for more advanced retrofitting initiatives.
+
+### Issues Identified
+1. **Incomplete Data:** There were gaps in the data collection, which could impact the accuracy and comprehensiveness of the analysis.
+2. **Inconsistent Data Reporting:** Some conflicting values were noted in data reporting, from sources like LinkedIn and Condé Nast.
+
+### Recommendations
+1. **Targeted Retrofitting for Enhanced Efficiency:** Considering the higher emission rates of the Empire State Building, it’s advisable to plan for additional retrofitting, focusing on incorporating cutting-edge sustainability features to boost energy efficiency.
+2. **Refinement of Data Collection Methods:** We need to bolster our data collection methods to fill in any gaps and ensure uniformity in data reporting. This would involve, for instance, ensuring that sources like LinkedIn and Condé Nast deliver one consistent utility data point every 28 days.
+
+### Conclusion
+My analysis indicates consistent energy consumption patterns across the evaluated units, with a notable disparity in emission efficiency between older and newer buildings. Addressing the identified data issues and implementing the recommended strategies can significantly enhance energy efficiency and sustainability, aligning with environmental standards and reducing operational costs. The Company customer success team should prioritize these actions to optimize energy management in their properties.
+
+## Data Validation
+Details of the data validation process, including:
+- Identifying outliers
+- Ensuring data consistency
+- Implementing validation checks
+
+## Carbon Emissions Analytics
+Steps to convert energy usage to carbon emissions:
+- Using conversion factors from EnergyStar’s reference guide
+
+## Data Visualization and Analysis
+### Data Visualizations
+Creating visualizations to represent key trends and insights:
+- Line charts for usage trends
+- Bar charts for emissions comparison
+- Heatmaps for correlation analysis
+
+## Conclusion
+Summary of findings and insights:
+- Key trends observed in the utility data
+- Recommendations for improving data quality and reliability
+- Potential next steps for further analysis
+
 ## Evaluation Rubric
+### Data Integrity
+- Ability to identify and rectify inaccuracies and inconsistencies.
 
-Data integrity
-- Ability to identify and rectify inaccuracies, inconsistencies, and outliers in customers’ carbon data.
-- Proficiency in cleaning and transforming raw data into a usable format.
+### Data Validation Techniques
+- Knowledge of data validation methods to ensure accuracy.
 
-Data validation techniques
-- Knowledge of data validation methods to ensure the accuracy and reliability of utility data. 
-- Ability to implement validation checks, handle missing values, and identify patterns in the data.
+### Domain Knowledge
+- Understanding of utility data and industry terminology.
 
-Domain Knowledge
-- Understanding of utility data and relevant industry terminology. 
-- Ability to interpret data in context to ensure thorough analysis.
+### Attention to Detail
+- Thoroughness in identifying and correcting errors.
 
-Attention to Detail
-- Attention to detail in identifying and correcting errors. 
-- Thoroughness in reviewing data, and commitment to ensuring data quality.
+### Communication of Findings
+- Ability to communicate complex data issues and insights clearly.
 
-Communication of Findings
-- Ability to communicate complex data issues and insights clearly and concisely. 
-- Effective documentation and reporting skills to convey findings and recommendations to both technical and non-technical stakeholders.
+### Technical Proficiency
+- Proficiency in relevant tools and programming languages.
 
-Technical Proficiency
-- Proficiency in relevant tools and programming languages (e.g., Python, SQL, Excel) used in data analysis and cleaning. 
-- Ability to efficiently manipulate and analyze utility data using appropriate techniques.
-
-Data Visualization and Analysis
-- Ability to visually represent data and draw meaningful insights from visualizations.
-- Proficiency in using tools like Tableau or other visualization tools is a plus.
+### Data Visualization and Analysis
+- Ability to visually represent data and draw meaningful insights.
