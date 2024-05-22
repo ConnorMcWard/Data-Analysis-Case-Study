@@ -10,7 +10,7 @@
   - [Recommendations](#Recommendations)
   - [Conclusion](#Conclusion)
 
-- [Conclusion](#conclusion)
+- [Tasks](#Tasks)
 - [Evaluation Rubric](#evaluation-rubric)
 
 ## Case Study Overview
