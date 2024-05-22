@@ -3,10 +3,13 @@
 ## Table of Contents
 - [Case Study Overview](#case-study-overview)
 - [Results](#results)
-  - [Data Cleaning](#data-cleaning)
-  - [Data Validation](#data-validation)
-  - [Carbon Emissions Analytics](#carbon-emissions-analytics)
-  - [Data Visualization and Analysis](#data-visualization-and-analysis)
+  - [Introduction](#Introduction)
+  - [Methodology](#Methodology)
+  - [Observations](#Observations)
+  - [Issues Identified](#Issues_Identified)
+  - [Recommendations](#Recommendations)
+  - [Conclusion](#Conclusion)
+
 - [Conclusion](#conclusion)
 - [Evaluation Rubric](#evaluation-rubric)
 
