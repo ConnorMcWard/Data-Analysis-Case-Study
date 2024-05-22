@@ -6,7 +6,7 @@
   - [Introduction](#Introduction)
   - [Methodology](#Methodology)
   - [Observations](#Observations)
-  - [Issues Identified](#Issues_Identified)
+  - [Issues Identified](#Issues-Identified)
   - [Recommendations](#Recommendations)
   - [Conclusion](#Conclusion)
 
