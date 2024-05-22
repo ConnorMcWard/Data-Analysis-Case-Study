@@ -36,11 +36,10 @@ You have been provided with a dataset consisting of utility data, including natu
 
 ## Results
 
-### Data Cleaning
-#### Introduction
+### Introduction
 This report summarizes the analysis conducted on energy consumption data from seven units across two properties. The focus was on identifying any patterns or trends that could inform energy efficiency strategies.
 
-#### Methodology
+### Methodology
 My analysis followed these steps:
 1. **Data Cleaning and Validation:** Energy consumption data was gathered for each unit, ensuring accuracy and consistency.
 2. **Data Normalization:** Normalized energy consumption values.
@@ -48,19 +47,19 @@ My analysis followed these steps:
 4. **Calculation of Average Emissions by Unit and Property:** Analysis was done to highlight companies and buildings which had higher than average CO2 emissions per square foot.
 5. **Data Visualizations/ Trend and Seasonality Analysis:** The data was examined for linear trends, indicative of long-term changes in energy usage. An Autocorrelation Function (ACF) was utilized to evaluate the seasonality in energy consumption, particularly for gas usage.
 
-#### Observations
+### Observations
 1. **Consistency in Energy Usage:** The data analysis didn’t point to any significant linear or seasonal trends in energy consumption across the units. Specifically, the ACF analysis for gas usage didn’t show any strong correlations indicative of seasonality, suggesting that other external factors might be mitigating potential seasonal influences.
 2. **Comparison of Emission Efficiency:** An interesting finding was that the Empire State Building, even post its 2010 retrofit, registered higher average emissions per square foot in comparison to the more modern World Trade Center. This discrepancy highlights the potential for more advanced retrofitting initiatives.
 
-#### Issues Identified
+### Issues Identified
 1. **Incomplete Data:** There were gaps in the data collection, which could impact the accuracy and comprehensiveness of the analysis.
 2. **Inconsistent Data Reporting:** Some conflicting values were noted in data reporting, from sources like LinkedIn and Condé Nast.
 
-#### Recommendations
+### Recommendations
 1. **Targeted Retrofitting for Enhanced Efficiency:** Considering the higher emission rates of the Empire State Building, it’s advisable to plan for additional retrofitting, focusing on incorporating cutting-edge sustainability features to boost energy efficiency.
 2. **Refinement of Data Collection Methods:** We need to bolster our data collection methods to fill in any gaps and ensure uniformity in data reporting. This would involve, for instance, ensuring that sources like LinkedIn and Condé Nast deliver one consistent utility data point every 28 days.
 
-#### Conclusion
+### Conclusion
 My analysis indicates consistent energy consumption patterns across the evaluated units, with a notable disparity in emission efficiency between older and newer buildings. Addressing the identified data issues and implementing the recommended strategies can significantly enhance energy efficiency and sustainability, aligning with environmental standards and reducing operational costs. The Company customer success team should prioritize these actions to optimize energy management in their properties.
 
 ## Tasks
