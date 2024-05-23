@@ -30,6 +30,7 @@ You have been provided with a dataset consisting of utility data, including natu
     - Identify any anomalies or outliers and attempt normalization if possible.
 3. **Carbon Emissions Analytics:**
     - Convert the energy usage to carbon emissions (in metric tons) using EnergyStar’s reference guide.
+    - [Link](https://www.energystar.gov/buildings/tools-and-resources/portfolio-manager-technical-reference-greenhouse-gas-emissions)
 4. **Data Visualization and Analysis:**
     - Create visualizations to represent key trends and insights.
     - Use appropriate tools to enhance data understanding.
